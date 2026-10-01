@@ -1,2 +1,0 @@
-Model,Evaluation Set,Brier Score
-Tuned XGBoost + Feature Selection,Untouched Test Set,0.087061
