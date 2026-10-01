@@ -1,0 +1,6 @@
+Setting,Accuracy,Precision,Recall,F1-score,ROC-AUC,PR-AUC
+XGBoost Baseline,0.88,0.5867,0.7618,0.6629,0.9268,0.7384
+XGBoost + Feature Selection,0.8779,0.5815,0.7565,0.6576,0.9223,0.7257
+XGBoost - Temporal Features Removed,0.8755,0.5764,0.7408,0.6483,0.8947,0.7036
+XGBoost + SMOTE,0.899,0.7059,0.5969,0.6468,0.9301,0.7355
+XGBoost - PageValues Removed,0.7384,0.3124,0.5733,0.4044,0.7684,0.3652

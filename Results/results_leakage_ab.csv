@@ -1,0 +1,4 @@
+Setting,Accuracy,Precision,Recall,F1-score,ROC-AUC,PR-AUC
+"A: Leaky (SMOTE before split, resampled test)",0.9403,0.9562,0.9227,0.9392,0.9868,0.9887
+"B: Honest (SMOTE inside training, real test)",0.899,0.6962,0.6178,0.6546,0.9306,0.7426
+Inflation (A - B),0.0413,0.26,0.3049,0.2846,0.0562,0.2461

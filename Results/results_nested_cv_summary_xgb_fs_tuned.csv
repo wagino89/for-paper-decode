@@ -1,0 +1,7 @@
+Metric,Mean,Std
+Accuracy,0.8797,0.0074
+Precision,0.5858,0.0265
+Recall,0.7762,0.0426
+F1-score,0.6664,0.0071
+ROC-AUC,0.9287,0.004
+PR-AUC,0.7359,0.0113

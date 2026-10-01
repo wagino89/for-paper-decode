@@ -1,0 +1,4 @@
+Setting,Accuracy,Precision,Recall,F1-score,ROC-AUC,PR-AUC
+CatBoost - Temporal Features Removed,0.8646,0.5427,0.7984,0.6462,0.8994,0.7098
+CatBoost Baseline,0.8585,0.5282,0.8089,0.6391,0.9299,0.7405
+CatBoost - PageValues Removed,0.6837,0.2905,0.7225,0.4144,0.7725,0.3542

@@ -1,0 +1,5 @@
+Metric,Value
+Accuracy,0.8779
+F1 (minority / positive class),0.6576
+F1 (macro average),0.7916
+F1 (weighted average),0.8842

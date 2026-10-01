@@ -1,0 +1,4 @@
+Setting,Accuracy,Precision,Recall,F1-score,ROC-AUC,PR-AUC
+"A': SMOTE before split, natural-prevalence real test",0.9035,0.7057,0.6466,0.6749,0.9372,0.762
+"B: Honest (SMOTE inside training, real test)",0.899,0.6962,0.6178,0.6546,0.9306,0.7426
+Pure contamination (A' - B),0.0045,0.0095,0.0288,0.0203,0.0066,0.0194

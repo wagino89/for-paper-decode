@@ -1,0 +1,6 @@
+Item,Value
+Columns after OHE,75
+Preprocessor sparse,True
+F1 - original MI ('auto'),0.6576
+F1 - corrected MI (mask),0.6576
+Selected-feature overlap (of 20),20
