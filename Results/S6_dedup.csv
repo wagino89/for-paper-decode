@@ -1,0 +1,4 @@
+Setting,Accuracy,Precision,Recall,F1,ROC_AUC,PR_AUC
+"Reference: tuned XGBoost, all features (deduplicated)",0.8832,0.5984,0.7723,0.6743,0.9304,0.7466
+Tuned XGBoost + FS (final) (deduplicated),0.8775,0.5815,0.7749,0.6644,0.9295,0.7442
+Untuned XGBoost (deduplicated),0.8804,0.5911,0.7644,0.6667,0.9286,0.7394

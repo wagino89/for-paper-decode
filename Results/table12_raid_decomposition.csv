@@ -1,0 +1,73 @@
+classifier,metric,component,n_seeds,mean,sd,p2.5,p97.5,share_of_total_%,seeds_positive_%
+CatBoost,F1,Total (A - B),30,0.2725,0.0172,0.2398,0.3025,100.0,100.0
+CatBoost,F1,Synthetic test points (A - A_real_bal),30,0.1598,0.0161,0.1314,0.1832,58.8361,100.0
+CatBoost,F1,Prevalence shift (A_real_bal - A_real),30,0.096,0.0093,0.0809,0.1181,35.3798,100.0
+CatBoost,F1,Contamination + test sampling (A_real - B),30,0.0166,0.0221,-0.0183,0.0571,5.784,70.0
+CatBoost,F1,Submitted: A - A',30,0.2649,0.0157,0.2369,0.2916,97.3171,100.0
+CatBoost,F1,Submitted: A' - B,30,0.0075,0.0093,-0.0068,0.0254,2.6829,76.6667
+CatBoost,PR_AUC,Total (A - B),30,0.243,0.0186,0.2116,0.2708,100.0,100.0
+CatBoost,PR_AUC,Synthetic test points (A - A_real_bal),30,0.0568,0.0051,0.0462,0.0655,23.3951,100.0
+CatBoost,PR_AUC,Prevalence shift (A_real_bal - A_real),30,0.1733,0.0131,0.1484,0.1979,71.5294,100.0
+CatBoost,PR_AUC,Contamination + test sampling (A_real - B),30,0.0129,0.0177,-0.012,0.0427,5.0755,66.6667
+CatBoost,PR_AUC,Submitted: A - A',30,0.2362,0.0193,0.2006,0.2659,97.1443,100.0
+CatBoost,PR_AUC,Submitted: A' - B,30,0.0069,0.0046,-0.0034,0.0145,2.8557,90.0
+CatBoost,ROC_AUC,Total (A - B),30,0.0541,0.005,0.0426,0.0624,100.0,100.0
+CatBoost,ROC_AUC,Synthetic test points (A - A_real_bal),30,0.0497,0.0048,0.0401,0.0579,92.4605,100.0
+CatBoost,ROC_AUC,Prevalence shift (A_real_bal - A_real),30,-0.0,0.0,-0.0,0.0,-0.0,53.3333
+CatBoost,ROC_AUC,Contamination + test sampling (A_real - B),30,0.0044,0.0056,-0.0054,0.0142,7.5395,83.3333
+CatBoost,ROC_AUC,Submitted: A - A',30,0.0511,0.005,0.0407,0.0587,94.4931,100.0
+CatBoost,ROC_AUC,Submitted: A' - B,30,0.003,0.0012,0.001,0.0049,5.5069,100.0
+LogisticRegression,F1,Total (A - B),30,0.2276,0.018,0.1918,0.2555,100.0,100.0
+LogisticRegression,F1,Synthetic test points (A - A_real_bal),30,0.0149,0.0109,-0.007,0.031,6.6412,90.0
+LogisticRegression,F1,Prevalence shift (A_real_bal - A_real),30,0.2034,0.0145,0.1771,0.2268,89.8266,100.0
+LogisticRegression,F1,Contamination + test sampling (A_real - B),30,0.0093,0.0227,-0.0277,0.0487,3.5321,66.6667
+LogisticRegression,F1,Submitted: A - A',30,0.2372,0.0156,0.1995,0.2618,104.3621,100.0
+LogisticRegression,F1,Submitted: A' - B,30,-0.0095,0.0085,-0.0235,0.0051,-4.3621,13.3333
+LogisticRegression,PR_AUC,Total (A - B),30,0.2608,0.0217,0.2282,0.2971,100.0,100.0
+LogisticRegression,PR_AUC,Synthetic test points (A - A_real_bal),30,0.0041,0.0054,-0.0071,0.0136,1.56,83.3333
+LogisticRegression,PR_AUC,Prevalence shift (A_real_bal - A_real),30,0.2426,0.0152,0.2155,0.2705,93.5332,100.0
+LogisticRegression,PR_AUC,Contamination + test sampling (A_real - B),30,0.0141,0.0239,-0.0211,0.0596,4.9068,66.6667
+LogisticRegression,PR_AUC,Submitted: A - A',30,0.2542,0.0212,0.2218,0.285,97.4832,100.0
+LogisticRegression,PR_AUC,Submitted: A' - B,30,0.0066,0.0027,0.0022,0.013,2.5168,100.0
+LogisticRegression,ROC_AUC,Total (A - B),30,0.0171,0.0081,0.0016,0.0295,100.0,96.6667
+LogisticRegression,ROC_AUC,Synthetic test points (A - A_real_bal),30,0.0083,0.0055,-0.0039,0.0176,35.2695,93.3333
+LogisticRegression,ROC_AUC,Prevalence shift (A_real_bal - A_real),30,-0.0,0.0,-0.0,0.0,0.0,56.6667
+LogisticRegression,ROC_AUC,Contamination + test sampling (A_real - B),30,0.0088,0.0085,-0.0046,0.022,64.7305,83.3333
+LogisticRegression,ROC_AUC,Submitted: A - A',30,0.011,0.0071,-0.0023,0.0225,62.253,90.0
+LogisticRegression,ROC_AUC,Submitted: A' - B,30,0.0062,0.0018,0.0027,0.0093,37.747,100.0
+RandomForest,F1,Total (A - B),30,0.3001,0.0147,0.2722,0.324,100.0,100.0
+RandomForest,F1,Synthetic test points (A - A_real_bal),30,0.1733,0.0179,0.1431,0.2018,57.828,100.0
+RandomForest,F1,Prevalence shift (A_real_bal - A_real),30,0.0869,0.008,0.0764,0.1036,28.9892,100.0
+RandomForest,F1,Contamination + test sampling (A_real - B),30,0.04,0.0197,0.0036,0.0701,13.1828,96.6667
+RandomForest,F1,Submitted: A - A',30,0.264,0.0129,0.2368,0.2797,88.0335,100.0
+RandomForest,F1,Submitted: A' - B,30,0.0361,0.0104,0.0155,0.0566,11.9665,100.0
+RandomForest,PR_AUC,Total (A - B),30,0.2706,0.0159,0.2409,0.2945,100.0,100.0
+RandomForest,PR_AUC,Synthetic test points (A - A_real_bal),30,0.0573,0.005,0.0481,0.066,21.1914,100.0
+RandomForest,PR_AUC,Prevalence shift (A_real_bal - A_real),30,0.1768,0.0135,0.1488,0.1948,65.4117,100.0
+RandomForest,PR_AUC,Contamination + test sampling (A_real - B),30,0.0365,0.0172,0.0055,0.074,13.3969,100.0
+RandomForest,PR_AUC,Submitted: A - A',30,0.2377,0.0162,0.2079,0.2642,87.8253,100.0
+RandomForest,PR_AUC,Submitted: A' - B,30,0.0329,0.0076,0.021,0.0515,12.1747,100.0
+RandomForest,ROC_AUC,Total (A - B),30,0.0627,0.0049,0.0528,0.07,100.0,100.0
+RandomForest,ROC_AUC,Synthetic test points (A - A_real_bal),30,0.049,0.0045,0.0409,0.0567,78.4254,100.0
+RandomForest,ROC_AUC,Prevalence shift (A_real_bal - A_real),30,-0.0,0.0,-0.0,0.0,-0.0,56.6667
+RandomForest,ROC_AUC,Contamination + test sampling (A_real - B),30,0.0137,0.0049,0.0052,0.0218,21.5746,100.0
+RandomForest,ROC_AUC,Submitted: A - A',30,0.049,0.0042,0.0402,0.0547,78.1744,100.0
+RandomForest,ROC_AUC,Submitted: A' - B,30,0.0137,0.0022,0.01,0.0174,21.8256,100.0
+XGBoost,F1,Total (A - B),30,0.281,0.0169,0.2446,0.3039,100.0,100.0
+XGBoost,F1,Synthetic test points (A - A_real_bal),30,0.1754,0.015,0.1507,0.1996,62.5516,100.0
+XGBoost,F1,Prevalence shift (A_real_bal - A_real),30,0.0904,0.0081,0.0796,0.1104,32.2766,100.0
+XGBoost,F1,Contamination + test sampling (A_real - B),30,0.0152,0.019,-0.0224,0.0432,5.1718,76.6667
+XGBoost,F1,Submitted: A - A',30,0.2711,0.0144,0.2397,0.2881,96.5711,100.0
+XGBoost,F1,Submitted: A' - B,30,0.0099,0.0091,-0.0063,0.0285,3.4289,86.6667
+XGBoost,PR_AUC,Total (A - B),30,0.2415,0.0179,0.21,0.2674,100.0,100.0
+XGBoost,PR_AUC,Synthetic test points (A - A_real_bal),30,0.0571,0.005,0.0462,0.0646,23.6815,100.0
+XGBoost,PR_AUC,Prevalence shift (A_real_bal - A_real),30,0.1716,0.0133,0.1484,0.1939,71.2558,100.0
+XGBoost,PR_AUC,Contamination + test sampling (A_real - B),30,0.0128,0.0172,-0.0141,0.0438,5.0627,73.3333
+XGBoost,PR_AUC,Submitted: A - A',30,0.2341,0.0184,0.1986,0.2611,96.9162,100.0
+XGBoost,PR_AUC,Submitted: A' - B,30,0.0074,0.0055,-0.0022,0.0169,3.0838,93.3333
+XGBoost,ROC_AUC,Total (A - B),30,0.0542,0.005,0.0437,0.0629,100.0,100.0
+XGBoost,ROC_AUC,Synthetic test points (A - A_real_bal),30,0.0505,0.0044,0.0414,0.0586,93.7245,100.0
+XGBoost,ROC_AUC,Prevalence shift (A_real_bal - A_real),30,-0.0,0.0,-0.0,0.0,-0.0,53.3333
+XGBoost,ROC_AUC,Contamination + test sampling (A_real - B),30,0.0036,0.0048,-0.0059,0.0117,6.2755,80.0
+XGBoost,ROC_AUC,Submitted: A - A',30,0.0514,0.005,0.0412,0.0587,94.8262,100.0
+XGBoost,ROC_AUC,Submitted: A' - B,30,0.0028,0.0013,0.0005,0.005,5.1738,100.0

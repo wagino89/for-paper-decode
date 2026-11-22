@@ -1,0 +1,7 @@
+Setting,Accuracy,Precision,Recall,F1,ROC_AUC,PR_AUC
+"Reference: tuned XGBoost, all features",0.8767,0.5771,0.7644,0.6577,0.9275,0.7373
+"+ Feature selection (MI, k=20)",0.8779,0.5815,0.7565,0.6576,0.9223,0.7257
++ SMOTE instead of scale_pos_weight,0.899,0.6962,0.6178,0.6546,0.9306,0.7426
+"- Temporal features (Month, Weekend, SpecialDay)",0.8755,0.5764,0.7408,0.6483,0.8947,0.7036
+- PageValues,0.7384,0.3124,0.5733,0.4044,0.7684,0.3652
+Untuned XGBoost (manuscript 'Baseline'),0.88,0.5867,0.7618,0.6629,0.9268,0.7384

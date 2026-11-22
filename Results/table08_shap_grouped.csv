@@ -1,0 +1,15 @@
+Variable,MeanAbsSHAP_grouped,n_encoded_columns
+TrafficType,0.903828,4
+Month,0.695087,2
+PageValues,0.608391,1
+ExitRates,0.548937,1
+ProductRelated_Duration,0.319212,1
+BounceRates,0.296711,1
+Administrative_Duration,0.212334,1
+ProductRelated,0.193914,1
+VisitorType,0.152964,2
+Informational_Duration,0.151822,1
+Administrative,0.144781,1
+OperatingSystems,0.113843,2
+Informational,0.052685,1
+SpecialDay,0.045082,1

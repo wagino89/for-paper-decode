@@ -1,0 +1,7 @@
+Setting,F1_mean,F1_std,ROC_AUC_mean,ROC_AUC_std,PR_AUC_mean,PR_AUC_std
+"Reference: tuned XGBoost, all features",0.6757,0.0098,0.9307,0.0036,0.7427,0.016
+"+ Feature selection (MI, k=20)",0.673,0.0122,0.9282,0.0046,0.7402,0.0143
++ SMOTE instead of scale_pos_weight,0.67,0.0195,0.9335,0.0036,0.7512,0.0152
+"- Temporal features (Month, Weekend, SpecialDay)",0.6704,0.0146,0.9097,0.0056,0.721,0.0149
+- PageValues,0.424,0.0167,0.7772,0.0111,0.3697,0.0157
+Untuned XGBoost (manuscript 'Baseline'),0.6743,0.0146,0.93,0.0041,0.7409,0.0177

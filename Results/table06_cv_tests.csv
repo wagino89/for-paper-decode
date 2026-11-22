@@ -1,0 +1,13 @@
+Reference,Compared,Metric,MeanDiff,t,p
+"XGBoost (tuned + FS, final)",Logistic Regression,F1,0.0545,5.961,0.0
+"XGBoost (tuned + FS, final)",Logistic Regression,PR_AUC,0.0819,9.365,0.0
+"XGBoost (tuned + FS, final)",Logistic Regression,ROC_AUC,0.0228,7.564,0.0
+"XGBoost (tuned + FS, final)",Random Forest,F1,0.0541,4.457,0.0002
+"XGBoost (tuned + FS, final)",Random Forest,PR_AUC,-0.0026,-0.409,0.6858
+"XGBoost (tuned + FS, final)",Random Forest,ROC_AUC,0.0007,0.315,0.7553
+"XGBoost (tuned + FS, final)",XGBoost (untuned),F1,0.0005,0.112,0.9121
+"XGBoost (tuned + FS, final)",XGBoost (untuned),PR_AUC,-0.0022,-0.577,0.5695
+"XGBoost (tuned + FS, final)",XGBoost (untuned),ROC_AUC,-0.0021,-1.281,0.2126
+"XGBoost (tuned + FS, final)",CatBoost,F1,0.0076,1.401,0.1741
+"XGBoost (tuned + FS, final)",CatBoost,PR_AUC,-0.0098,-1.856,0.0757
+"XGBoost (tuned + FS, final)",CatBoost,ROC_AUC,-0.0053,-2.996,0.0063
